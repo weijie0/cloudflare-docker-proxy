@@ -28,7 +28,6 @@ name = "cloudflare-docker-proxy"
 [env.production.vars]
 MODE = "production"
 TARGET_UPSTREAM = "https://registry-1.docker.io"
-CUSTOM_DOMAIN = "yeeauth.com"
 
 [env.staging]
 name = "cloudflare-docker-proxy-staging"
